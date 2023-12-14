@@ -15,3 +15,9 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+goyyds:
+  name: goyyds
+  title: Goyyds
+  url: https://goyyds.github.io
+  image_url: https://goyyds.github.io/img/docusaurus.png
