@@ -1,5 +1,5 @@
 ---
-slug: welcome
+slug: welcome0
 title: Welcome
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
