@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Goyyds',
-  tagline: 'It\'s cool!',
+  tagline: 'Welcome You !  Have a good day !',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -116,6 +116,19 @@ const config: Config = {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          position: 'left',
+          label: 'About',
+          items:[
+            {
+              label:'Concat',
+              to: '/blog'
+            },{
+              label:'About',
+              to: '/blog'
+            }
+          ]
         },
         {
           type: 'localeDropdown',
