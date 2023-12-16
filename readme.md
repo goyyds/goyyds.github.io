@@ -11,3 +11,9 @@ sortPosts: "ascending",
 // sortPosts: "descending",
 ```
 
+## search
+
+[go to algolia](https://www.algolia.com/)
+```text
+algolia.com
+```

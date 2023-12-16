@@ -185,6 +185,21 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    algolia: {
+      apiKey: 'f68e781ce8edcc059495ae21bc8e1a4d',
+      indexName: 'goyyds',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: see doc section below
+      appId: '3VOE8BSPED',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
   } satisfies Preset.ThemeConfig,
 };
 
