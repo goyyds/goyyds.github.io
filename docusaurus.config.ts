@@ -200,7 +200,19 @@ const config: Config = {
 
       //... other Algolia params
     },
+    googleAdsense: {
+      dataAdClient: "ca-pub-9848500077083072",
+    },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-1LY690H7PW',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 };
 
 export default config;
