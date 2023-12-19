@@ -1350,7 +1350,7 @@
     react-helmet-async "*"
     react-loadable "npm:@docusaurus/react-loadable@5.5.2"
 
-"@docusaurus/plugin-content-blog@3.0.1":
+"@docusaurus/plugin-content-blog@3.0.1", "@docusaurus/plugin-content-blog@^3.0.1":
   version "3.0.1"
   resolved "https://registry.npmmirror.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-3.0.1.tgz#dee6147187c2d8b634252444d60312d12c9571a6"
   integrity sha512-cLOvtvAyaMQFLI8vm4j26svg3ktxMPSXpuUJ7EERKoGbfpJSsgtowNHcRsaBVmfuCsRSk1HZ/yHBsUkTmHFEsg==
@@ -1373,7 +1373,7 @@
     utility-types "^3.10.0"
     webpack "^5.88.1"
 
-"@docusaurus/plugin-content-docs@3.0.1":
+"@docusaurus/plugin-content-docs@3.0.1", "@docusaurus/plugin-content-docs@^3.0.1":
   version "3.0.1"
   resolved "https://registry.npmmirror.com/@docusaurus/plugin-content-docs/-/plugin-content-docs-3.0.1.tgz#d9b1884562186573d5c4521ac3546b68512c1126"
   integrity sha512-dRfAOA5Ivo+sdzzJGXEu33yAtvGg8dlZkvt/NEJ7nwi1F2j4LEdsxtfX2GKeETB2fP6XoGNSQnFXqa2NYGrHFg==
@@ -1430,18 +1430,7 @@
     "@docusaurus/utils-validation" "3.0.1"
     tslib "^2.6.0"
 
-"@docusaurus/plugin-google-gtag@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.npmmirror.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-3.0.1.tgz#bb5526377d3a324ebec235127846fda386562b05"
-  integrity sha512-UFTDvXniAWrajsulKUJ1DB6qplui1BlKLQZjX4F7qS/qfJ+qkKqSkhJ/F4VuGQ2JYeZstYb+KaUzUzvaPK1aRQ==
-  dependencies:
-    "@docusaurus/core" "3.0.1"
-    "@docusaurus/types" "3.0.1"
-    "@docusaurus/utils-validation" "3.0.1"
-    "@types/gtag.js" "^0.0.12"
-    tslib "^2.6.0"
-
-"@docusaurus/plugin-google-gtag@^3.0.1":
+"@docusaurus/plugin-google-gtag@3.0.1", "@docusaurus/plugin-google-gtag@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-3.0.1.tgz#bb5526377d3a324ebec235127846fda386562b05"
   integrity sha512-UFTDvXniAWrajsulKUJ1DB6qplui1BlKLQZjX4F7qS/qfJ+qkKqSkhJ/F4VuGQ2JYeZstYb+KaUzUzvaPK1aRQ==
