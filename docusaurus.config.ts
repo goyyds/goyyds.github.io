@@ -125,10 +125,13 @@ const config: Config = {
           items:[
             {
               label:'Download',
-              to: '/blog'
+              to: '/download'
             },{
-              label:'pri',
-              to: '/pri'
+              label:'B',
+              to: '/blog2'
+            },{
+              label:'D',
+              to: '/docs2'
             }
           ]
         },
@@ -147,7 +150,7 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/简介',
+              to: '/docs/intro',
             },
           ],
         },
@@ -222,18 +225,29 @@ const config: Config = {
         /**
          * Required for any multi-instance plugin
          */
-        id: 'pri',
+        id: 'blog2',
         /**
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: 'pri',
+        routeBasePath: 'blog2',
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: './mg',
+        path: './mg-blog',
       },
-    ]
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs2',
+        path: './mg-docs',
+        routeBasePath: '/docs2',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+    ],
+
   ],
 };
 
