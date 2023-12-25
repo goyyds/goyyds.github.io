@@ -2,7 +2,7 @@ goyyds:
   name: goyyds
   title: Goyyds
   url: https://goyyds.github.io
-  image_url: https://goyyds.github.io/img/docusaurus.png
+  image_url: /img/mg.png
 
 endi:
   name: Endilie Yacop Sucipto

@@ -102,34 +102,37 @@ const config: Config = {
       title: 'Goyyds',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        // src: 'img/logo.svg',
+        src: 'img/mg.png',
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/about', label: 'About', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/goyyds/goyyds.github.io',
           label: 'GitHub',
           position: 'right',
         },
         {
-          position: 'left',
-          label: 'About',
+          position: 'right',
+          label: 'More',
           items:[
             {
-              label:'Concat',
+              label:'Download',
               to: '/blog'
             },{
-              label:'About',
-              to: '/blog'
+              label:'pri',
+              to: '/pri'
             }
           ]
         },
+
         {
           type: 'localeDropdown',
           position: 'right',
@@ -144,7 +147,7 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/docs/简介',
             },
           ],
         },
@@ -211,7 +214,26 @@ const config: Config = {
         trackingID: 'G-1LY690H7PW',
         anonymizeIP: true,
       },
+
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'pri',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'pri',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './mg',
+      },
+    ]
   ],
 };
 
