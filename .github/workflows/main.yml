@@ -14,6 +14,15 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -26,11 +35,12 @@ jobs:
       - name: Build website
         run: yarn build
 
+
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to Pages
 #        uses: peaceiris/actions-gh-pages@v3
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
