@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/yhy.svg').default,
     description: (
       <>
-          Record something !
+          It&apos;s my records!
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/taiji.svg').default,
     description: (
       <>
-          It&apos;s my life!
+          Something !
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/mg.svg').default,
     description: (
       <>
-          concat me
+          Concat me
       </>
     ),
   },

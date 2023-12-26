@@ -76,12 +76,14 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          sortPosts: "ascending",
-          // sortPosts: "descending",
+          // sortPosts: "ascending",
+          sortPosts: "descending",
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -140,7 +142,13 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right',
         },
+        {
+          to:"https://www.bing.com",
+          label: 'Bing',
+          position: 'right'
+        }
       ],
+
     },
     footer: {
       style: 'dark',
@@ -235,6 +243,9 @@ const config: Config = {
          * Path to data on filesystem relative to site dir.
          */
         path: './mg-blog',
+
+        blogSidebarTitle: 'All posts',
+        blogSidebarCount: 'ALL',
       },
     ],
     [
@@ -243,7 +254,7 @@ const config: Config = {
         id: 'd',
         path: './mg-docs',
         routeBasePath: '/d',
-        sidebarPath: './sidebars.ts',
+        sidebarPath: './sidebarsDocs.ts',
         // ... other options
 
       },
