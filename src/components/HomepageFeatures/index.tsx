@@ -10,8 +10,8 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'technology',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Blog',
+    Svg: require('@site/static/img/yhy.svg').default,
     description: (
       <>
           Record something !
@@ -19,8 +19,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Focus on my life',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Docs',
+    Svg: require('@site/static/img/taiji.svg').default,
     description: (
       <>
           It&apos;s my life!
@@ -28,8 +28,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Communicate to me',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'About',
+    Svg: require('@site/static/img/mg.svg').default,
     description: (
       <>
           concat me

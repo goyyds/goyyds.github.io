@@ -107,7 +107,6 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -119,6 +118,7 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {to: '/about', label: 'About', position: 'right'},
         {
           position: 'right',
           label: 'More',
