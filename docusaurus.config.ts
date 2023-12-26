@@ -131,7 +131,7 @@ const config: Config = {
               to: '/blog2'
             },{
               label:'D',
-              to: '/docs2'
+              to: '/d/intro'
             }
           ]
         },
@@ -240,11 +240,12 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'docs2',
+        id: 'd',
         path: './mg-docs',
-        routeBasePath: '/docs2',
+        routeBasePath: '/d',
         sidebarPath: './sidebars.ts',
         // ... other options
+
       },
     ],
 
