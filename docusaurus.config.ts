@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://goyyds.github.io`,
+  url: `https://m.goyyds.com`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -201,7 +201,7 @@ const config: Config = {
     },
     algolia: {
       apiKey: 'f68e781ce8edcc059495ae21bc8e1a4d',
-      indexName: 'goyyds',
+      indexName: 'algoliaSearch',
 
       // Optional: see doc section below
       contextualSearch: true,
