@@ -76,7 +76,7 @@ const config: Config = {
       {
         sitemap: {
           priority: 0.5,
-          ignorePatterns: ['/blog2/**','/d/**'],
+          ignorePatterns: ['/mgb/**','/mgd/**'],
           filename: 'sitemap.xml',
           changefreq: EnumChangefreq.WEEKLY
         },
@@ -138,10 +138,10 @@ const config: Config = {
               to: '/download'
             },{
               label:'B',
-              to: '/blog2'
+              to: '/mgb'
             },{
               label:'D',
-              to: '/d/intro'
+              to: '/mgd/intro'
             }
           ]
         },
@@ -227,26 +227,26 @@ const config: Config = {
     // },
   } satisfies Preset.ThemeConfig,
   plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-1LY690H7PW',
-        anonymizeIP: true,
-      },
-
-    ],
+    // [
+    //   '@docusaurus/plugin-google-gtag',
+    //   {
+    //     trackingID: 'G-1LY690H7PW',
+    //     anonymizeIP: true,
+    //   },
+    //
+    // ],
     [
       '@docusaurus/plugin-content-blog',
       {
         /**
          * Required for any multi-instance plugin
          */
-        id: 'blog2',
+        id: 'b',
         /**
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: 'blog2',
+        routeBasePath: 'mgb',
         /**
          * Path to data on filesystem relative to site dir.
          */
@@ -254,6 +254,7 @@ const config: Config = {
 
         blogSidebarTitle: 'All posts',
         blogSidebarCount: 'ALL',
+
       },
     ],
     [
@@ -261,7 +262,7 @@ const config: Config = {
       {
         id: 'd',
         path: './mg-docs',
-        routeBasePath: '/d',
+        routeBasePath: '/mgd',
         sidebarPath: './sidebarsDocs.ts',
         // ... other options
 
