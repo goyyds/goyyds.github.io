@@ -23,7 +23,8 @@
       "type",
       "lang",
       "language",
-      "version"
+      "version",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -31,8 +32,7 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type",
-      "docusaurus_tag"
+      "type"
     ],
     "attributesToHighlight": ["hierarchy", "content"],
     "attributesToSnippet": ["content:10"],
