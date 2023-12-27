@@ -214,9 +214,9 @@ const config: Config = {
 
       //... other Algolia params
     },
-    googleAdsense: {
-      dataAdClient: "ca-pub-9848500077083072",
-    },
+    // googleAdsense: {
+    //   dataAdClient: "ca-pub-9848500077083072",
+    // },
   } satisfies Preset.ThemeConfig,
   plugins: [
     [
