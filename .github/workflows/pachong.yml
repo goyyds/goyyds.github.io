@@ -3,8 +3,6 @@ name: 索引爬虫 docsearch-scraper
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   scan:
@@ -23,7 +21,7 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          CONFIG="$(cat docsearch-config.json)"
+          CONFIG="$(cat docsearch.json)"
           docker run -i --rm \
                   -e APPLICATION_ID=$APPLICATION_ID \
                   -e API_KEY=$API_KEY \
