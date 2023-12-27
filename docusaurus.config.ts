@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {EnumChangefreq} from "sitemap";
 
 const config: Config = {
   title: 'Goyyds',
@@ -25,6 +26,7 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
+
     defaultLocale: 'zh-cn',
     locales: [
       'en',
@@ -72,6 +74,12 @@ const config: Config = {
     [
       'classic',
       {
+        sitemap: {
+          priority: 0.5,
+          ignorePatterns: ['/blog2/**','/d/**'],
+          filename: 'sitemap.xml',
+          changefreq: EnumChangefreq.WEEKLY
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
