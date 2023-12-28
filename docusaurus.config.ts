@@ -9,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://m.goyyds.com`,
+  url: `https://goyyds.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -128,14 +128,14 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
-        {to: '/about', label: 'About', position: 'right'},
+        {to: '/p/about', label: 'About', position: 'right'},
         {
           position: 'right',
           label: 'More',
           items:[
             {
               label:'Download',
-              to: '/download'
+              to: '/p/download'
             },{
               label:'B',
               to: '/mgb'
@@ -185,6 +185,10 @@ const config: Config = {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
             },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
+            },
           ],
         },
         {
@@ -195,13 +199,30 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'About',
+              to: '/p/about',
             },
           ],
         },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Privacy',
+              href: '/p/about',
+            },
+            {
+              label: 'Terms',
+              href: '/p/about',
+            },
+            {
+              label: 'Cookie Policy',
+              href: '/p/about',
+            },
+          ],
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GOYYDS. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
