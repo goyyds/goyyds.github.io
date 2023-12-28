@@ -1,1 +1,0 @@
-# goyyds.github.io
