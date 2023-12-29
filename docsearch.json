@@ -1,6 +1,6 @@
 {
   "index_name": "algoliaSearch",
-  "start_urls": ["https://m.goyyds.com/docs/","https://m.goyyds.com/blog/","https://m.goyyds.com/p/"],
+  "start_urls": ["https://goyyds.github.io/docs/","https://goyyds.github.io/blog/","https://goyyds.github.io/p/"],
   "sitemap_urls": ["https://m.goyyds.com/sitemap.xml"],
   "stop_urls": ["/search"],
   "selectors": {

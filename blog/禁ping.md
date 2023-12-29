@@ -2,7 +2,7 @@
 title: 禁ping
 lang: zh-CN
 date: 2021-09-24 09:56:07
-tags: [服务器]
+tags: [服务器,ping]
 categories: [知识]
 thumbnail: https://www.goyyds.com/img/s/ping.png
 banner: https://www.goyyds.com/img/s/ping.png
