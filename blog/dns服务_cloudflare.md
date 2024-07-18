@@ -4,8 +4,8 @@ date: 2021-05-28 14:40:00
 lang: zh-CN
 tags: [dns]
 categories: [技术篇,服务器]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/cloudflare.jpg
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/cloudflare.jpg
+thumbnail: https://michaelgzy.goyyds.com/images/article/cloudflare.jpg
+cover: https://michaelgzy.goyyds.com/images/article/cloudflare.jpg
 toc: true
 excerpt: 更快,更高,更墙!
 ---
@@ -18,4 +18,4 @@ website:
 
 # 2. 配置
 
-![func](https://michaelgzy.zhenxishenghuo.club/images/article/cloudflare.jpg)
+![func](https://michaelgzy.goyyds.com/images/article/cloudflare.jpg)

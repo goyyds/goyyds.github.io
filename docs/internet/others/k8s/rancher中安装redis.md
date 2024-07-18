@@ -4,8 +4,8 @@ date: 2021-05-02 13:25:05
 lang: zh-CN
 tags: [数据库]
 categories: [技术篇,数据库]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/redis.jpg
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/redis.jpg
+thumbnail: https://michaelgzy.goyyds.com/images/article/redis.jpg
+cover: https://michaelgzy.goyyds.com/images/article/redis.jpg
 toc: true
 excerpt: redis也不赖!
 ---
@@ -17,5 +17,5 @@ docker image
     redis:6.0-alpine
     
 # launch
-![like this](https://michaelgzy.zhenxishenghuo.club/images/article/redis-workload.png)
+![like this](https://michaelgzy.goyyds.com/images/article/redis-workload.png)
 

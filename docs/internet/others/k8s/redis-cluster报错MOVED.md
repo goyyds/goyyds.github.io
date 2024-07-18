@@ -4,8 +4,8 @@ lang: zh-CN
 date: 2021-06-30 15:58:46
 tags: [数据库]
 categories: [技术篇,数据库]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/redis.jpg
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/redis.jpg
+thumbnail: https://michaelgzy.goyyds.com/images/article/redis.jpg
+cover: https://michaelgzy.goyyds.com/images/article/redis.jpg
 toc: true
 excerpt: redis也不赖!
 ---

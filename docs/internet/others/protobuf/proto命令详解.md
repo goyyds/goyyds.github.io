@@ -4,8 +4,8 @@ date: 2021-05-05 10:12:12
 lang: zh-CN
 tags: [rpc]
 categories: [技术篇,知识]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/money.jpg
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/money.jpg
+thumbnail: https://michaelgzy.goyyds.com/images/article/money.jpg
+cover: https://michaelgzy.goyyds.com/images/article/money.jpg
 toc: true
 excerpt: 其实我也不太懂
 ---

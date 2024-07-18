@@ -136,3 +136,14 @@ helm install rancher rancher-stable/rancher \
 --set replicas=3 \
 --set ingress.tls.source=letsEncrypt \
 --set letsEncrypt.email=429534533@qq.com
+
+helm install rancher rancher-stable/rancher \
+--namespace cattle-system \
+--set hostname=ti.goyyds.com \
+--set replicas=1 \
+--set ingress.tls.source=letsEncrypt \
+--set letsEncrypt.email=429534533@qq.com \
+--set systemDefaultRegistry=registry.cn-hangzhou.aliyuncs.com \
+--set rancherImage=registry.cn-hangzhou.aliyuncs.com/rancher/rancher
+
+curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn INSTALL_K3S_VERSION=v1.28.11+k3s2 sh -s - --system-default-registry "registry.cn-hangzhou.aliyuncs.com"
