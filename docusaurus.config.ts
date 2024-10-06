@@ -128,23 +128,23 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
-        {to: '/p/about', label: 'About', position: 'right'},
-        {
-          position: 'right',
-          label: 'More',
-          items:[
-            {
-              label:'Download',
-              to: '/p/download'
-            },{
-              label:'B',
-              to: '/mgb'
-            },{
-              label:'D',
-              to: '/mgd/intro'
-            }
-          ]
-        },
+        // {to: '/p/about', label: 'About', position: 'right'},
+        // {
+        //   position: 'right',
+        //   label: 'More',
+        //   items:[
+        //     {
+        //       label:'Download',
+        //       to: '/p/download'
+        //     },{
+        //       label:'B',
+        //       to: '/mgb'
+        //     },{
+        //       label:'D',
+        //       to: '/mgd/intro'
+        //     }
+        //   ]
+        // },
 
         {
           type: 'localeDropdown',
@@ -161,68 +161,68 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Docs',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'About',
-              to: '/p/about',
-            },
-          ],
-        },
-        {
-          title: 'Legal',
-          items: [
-            {
-              label: 'Privacy',
-              href: '/p/about',
-            },
-            {
-              label: 'Terms',
-              href: '/p/about',
-            },
-            {
-              label: 'Cookie Policy',
-              href: '/p/about',
-            },
-          ],
-        }
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Docs',
+        //       to: '/docs/intro',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/docusaurus',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/facebook/docusaurus',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: '/blog',
+        //     },
+        //     {
+        //       label: 'About',
+        //       to: '/p/about',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Legal',
+        //   items: [
+        //     {
+        //       label: 'Privacy',
+        //       href: '/p/about',
+        //     },
+        //     {
+        //       label: 'Terms',
+        //       href: '/p/about',
+        //     },
+        //     {
+        //       label: 'Cookie Policy',
+        //       href: '/p/about',
+        //     },
+        //   ],
+        // }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GOYYDS. Built with Docusaurus.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} GOYYDS. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
