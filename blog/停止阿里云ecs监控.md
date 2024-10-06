@@ -4,8 +4,8 @@ date: 2021-05-05 08:52:20
 lang: zh-CN
 tags: [阿里云]
 categories: [技术篇,服务器]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/aliyun.png
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/aliyun.png
+thumbnail: https://michaelgzy.goyyds.com/images/article/aliyun.png
+cover: https://michaelgzy.goyyds.com/images/article/aliyun.png
 toc: true
 excerpt: 监控,再见
 ---

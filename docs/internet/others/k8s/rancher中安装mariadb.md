@@ -4,8 +4,8 @@ date: 2021-05-02 15:58:00
 lang: zh-CN
 tags: [数据库]
 categories: [技术篇,数据库]
-thumbnail: https://michaelgzy.zhenxishenghuo.club/images/article/mariadb_mysql.jpg
-cover: https://michaelgzy.zhenxishenghuo.club/images/article/mariadb_mysql.jpg
+thumbnail: https://michaelgzy.goyyds.com/images/article/mariadb_mysql.jpg
+cover: https://michaelgzy.goyyds.com/images/article/mariadb_mysql.jpg
 toc: true
 excerpt: MariaDB还不错!
 ---
@@ -35,4 +35,4 @@ volumes
 
 # lanch
     
-![like this](https://michaelgzy.zhenxishenghuo.club/images/article/mariadb_install.png)
+![like this](https://michaelgzy.goyyds.com/images/article/mariadb_install.png)
