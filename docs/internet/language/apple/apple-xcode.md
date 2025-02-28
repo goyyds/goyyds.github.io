@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 label: 'Xcode'
 id: doc-xcode
 title: xcode
@@ -28,4 +28,13 @@ app内购买项目
 ## 3.build
 ```shell
 选择项目,选择设备/模拟器 运行build
+```
+
+## 4.workspace
+```shell
+file->new->workspace->rename->save
+```
+在工作空间内添加项目
+```shell
+在workspace 内创建project 记得 选择 Add to workspace 
 ```
