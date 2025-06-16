@@ -3,6 +3,7 @@ sidebar_position: 99
 label: 'other'
 date: 2025-01-01 00:00:00
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> </link>
 
 # Michael
 
@@ -18,15 +19,15 @@ date: 2025-01-01 00:00:00
 
 ---
 
-## 🧾 微信添加方式
-
-<img src="/img/s/wx.png" alt="微信二维码" width="200"/>
+## <i class="fab fa-weixin"></i>  微信添加方式
 
 
 👉 **长按二维码，保存到相册**
+<img src="/img/s/wx.png" alt="微信二维码" width="200"/>
+
 
 <div>
-<a href="weixin://" className="wx-style">打开微信</a>
+👉 <a href="weixin://" className="wx-style">打开微信扫一扫</a>
 </div>
 ---
 
