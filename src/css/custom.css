@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.wx-style{
+  padding: 8px 12px;
+  background: #07C160;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none
+}

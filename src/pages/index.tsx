@@ -7,9 +7,25 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+function preCheck(siteConfig:any){
+  console.log(siteConfig.themeConfig["navbar"].items);
+  let items =siteConfig.themeConfig["navbar"].items
+  const hasLoginRoute = items.some(item => item.to === '/login' || item.to === '/logout')
+  if(!hasLoginRoute){
+    // 未登录
+    items.push({to:"/login",
+      label: 'Login',
+      position: 'right'})
+    // 已登录
+    items.push({to:"/logout",
+      label: 'Logout',
+      position: 'right'})
+  }
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  return (
+    return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
@@ -30,14 +46,17 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+
+  console.log(siteConfig);
+  // preCheck(siteConfig)
   return (
-    <Layout
-      title={`Welcome to ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+      <Layout
+          title={`Welcome to ${siteConfig.title}`}
+          description="Description will go into a meta tag in <head />">
+        <HomepageHeader />
+        <main>
+          <HomepageFeatures />
+        </main>
+      </Layout>
   );
 }
